@@ -12,13 +12,14 @@ namespace CSharquarium_console.Models
 
         public string Name { get; set; }
         public Gender Gender { get; set; }
+
         #endregion
 
         #region Constructors
         public Fish() : base()
         {
-            this.Name = "Loulou";
-            this.Gender = Gender.Unknown;
+            this.Name = GenerateName();
+            this.Gender = GenerateGender();
         }
         public Fish(string name, Gender gender) : base()
         {
@@ -32,10 +33,28 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return String.Format("This is {0}. {0} is a {1}, and it has {2} HP", this.Name, GetType().Name, this.HP);
+            return String.Format("This is {0}. {0} is a {1}, and it has {2} HP", this.Name, GetType().Name, this.hp);
         }
 
-        //public abstract void Eat();
+        // TODO: implement this
+        //public abstract Fish GiveBirth(Fish mate);
+
+        // TODO: implement this
+        private string GenerateName()
+        {
+            
+            return "loulou";
+        }
+        // TODO : implement this
+        private Gender GenerateGender()
+        {
+            
+            return Gender.Male;
+        }
+
+        
+
+        public abstract void Eat(Organism target);
 
         //public abstract void ChangeGender();
 

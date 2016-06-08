@@ -11,7 +11,7 @@ namespace CSharquarium_console.Models
 
         public Alga()
         {
-            this.HP = 10;
+            
         }
     }
 }

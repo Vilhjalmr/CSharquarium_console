@@ -23,10 +23,17 @@ namespace CSharquarium_console.Models
 
         #region Methods
 
-        public void Eat(Alga alga, Aquarium Aq)
+        public override void Eat(Organism target)
         {
-            //Console.WriteLine("{0} broute paisiblement une algue...\n", this.Name);
-            //Aq.RemoveAlga(alga);
+            if (target is Fish)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("The {0} named {1} meets another fish but they want algae!", this.GetType().Name, this.Name);
+            }
+            else if (target is Alga)
+            {
+                Console.WriteLine("The {0} named {1} eats some alga.", this.GetType().Name, this.Name);
+            }
         }
 
         public override void Update(Aquarium Aq)

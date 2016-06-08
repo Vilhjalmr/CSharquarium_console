@@ -78,7 +78,7 @@ namespace CSharquarium_console.Models
             // Each fish tries eating something
             foreach (Fish fish in PseudoLink<Organism, Fish>.GetSubset(Organisms))
             {
-                --fish.HP;
+                fish.loseHP();
             }
 
         }
@@ -86,51 +86,15 @@ namespace CSharquarium_console.Models
         public void LunchTime()
         {
             Console.WriteLine("**********\nLunchTime Starts!\n**********");
-            // Each fish tries eating something
+
+            // Each fish tries to eat something
             foreach (Fish fish in PseudoLink<Organism, Fish>.GetSubset(Organisms))
             {
-                // Get random element in Organisms. Test. Proceed. Fuck bitches.
+                // Get random element in Organisms. Send it to each fish. Conditions tested in Eat(Organism target)
                 Random rnd = new Random();
                 int r = rnd.Next(0, Organisms.Count());
                 Organism target = Organisms[r];
-
-
-                // Case1: fish is carnivorous
-                if (fish is FishEatingFish)
-                {
-                    if (target.Equals(fish))
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("The {0} named {1} tries eating themselves but can't do that.", fish.GetType().Name, fish.Name);
-                    }
-                    else if (target.GetType().Name.Equals(fish.GetType().Name))
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("The {0} named {1} tries eating one of their own species but can't do that. Fucking cannibals!", fish.GetType().Name, fish.Name);
-                    }
-                    else if (target is Alga)
-                    {
-                        Console.WriteLine("{0} is a {1} and they don't eat no goddamn alga!", fish.Name, fish.GetType().Name);
-                    }
-                    else
-                    {
-                        Fish targetedFish = (Fish)target;
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("The {0} named {1} brutally devours the {2} named {3}. Savage.", fish.GetType().Name, fish.Name, targetedFish.GetType().Name, targetedFish.Name);
-                    }
-                }
-                else if (fish is AlgaeEatingFish)
-                {
-                    if (target is Fish)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("The {0} named {1} meets another fish but they want algae!", fish.GetType().Name, fish.Name);
-                    }
-                    else
-                    {
-                        Console.WriteLine("The {0} named {1} eats some alga.", fish.GetType().Name, fish.Name);
-                    }
-                }
+                fish.Eat(Organisms[r]);
             }
             Console.ResetColor();
             Console.WriteLine("**********\nLunchTime over! For now.\n**********");
