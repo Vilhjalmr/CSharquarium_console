@@ -29,7 +29,8 @@ namespace CSharquarium_console.Models
         }
         public override string ToString()
         {
-            return "This fish is a Clownfish. Clownfishes are awesome.\n";
+            return String.Format("{0}\n{1} are awesome.\n", base.ToString(), GetType().Name);
+
         }
         #endregion
     }

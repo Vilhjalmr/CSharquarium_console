@@ -54,7 +54,10 @@
     <Compile Include="Models\FishRaces.cs" />
     <Compile Include="Models\Gender.cs" />
     <Compile Include="Models\Grouper.cs" />
+    <Compile Include="Models\Organism.cs" />
     <Compile Include="Models\Sole.cs" />
+    <Compile Include="Models\Tools_Jerome.cs" />
+    <Compile Include="Models\Tools.cs" />
     <Compile Include="Models\Tuna.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

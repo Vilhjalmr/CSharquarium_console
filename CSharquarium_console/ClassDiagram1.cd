@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="CSharquarium_console.Models.AlgaeEatingFish" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+    <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\AlgaeEatingFish.cs</FileName>
@@ -17,7 +17,7 @@
   <Class Name="CSharquarium_console.Models.Aquarium" Collapsed="true">
     <Position X="16" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQCAAAAAAAAQAAAAAAAAAAAAAAAAQCMAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQCAAAAAAAAQQAAAAAAAAAAAAAAAAAMEAAAAAAAAAA=</HashCode>
       <FileName>Models\Aquarium.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -49,8 +49,8 @@
       <FileName>Models\Fish.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CSharquarium_console.Models.FishEatingFish" Collapsed="true">
-    <Position X="9.5" Y="1.75" Width="1.5" />
+  <Class Name="CSharquarium_console.Models.FishEatingFish">
+    <Position X="9.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\FishEatingFish.cs</FileName>

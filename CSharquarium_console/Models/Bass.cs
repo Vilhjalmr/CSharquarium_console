@@ -31,7 +31,7 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return "This fish is a Bass. Basses are essential in the well being of music.\n";
+            return String.Format("{0}\nBasses are essential in the well being of music.\n", base.ToString());
         }
 
         #endregion

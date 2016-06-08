@@ -32,7 +32,8 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return "This fish is a Grouper. Groupers are carnivorous.\n";
+            return String.Format("{0}\n{1} are carnivorous\n", base.ToString(), GetType().Name);
+
         }
 
         #endregion

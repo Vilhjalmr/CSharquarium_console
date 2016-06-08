@@ -31,7 +31,7 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return "This fish is a Carp. Carps are a taciturn species.\n";
+            return String.Format("{0}\n{1} are a taciturn species.\n", base.ToString(), GetType().Name);
         }
 
         #endregion

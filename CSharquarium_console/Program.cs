@@ -11,39 +11,39 @@ namespace CSharquarium_console
     {
         static void Main(string[] args)
         {
-            Aquarium ShenshinAquarium = new Aquarium();
+            Aquarium YinYangAquarium = new Aquarium();
 
-            ShenshinAquarium.AddFish(new Grouper("Matthew", Gender.Male));
-            ShenshinAquarium.AddFish(new Grouper("Mark", Gender.Male));
-            ShenshinAquarium.AddFish(new Grouper("Luke", Gender.Male));
-            ShenshinAquarium.AddFish(new Grouper("John", Gender.Male));
-
-            ShenshinAquarium.AddFish(new Tuna("Dean", Gender.Male));
-            ShenshinAquarium.AddFish(new Tuna("Sam", Gender.Male));
-            ShenshinAquarium.AddFish(new Tuna("Chaos", Gender.Female));
-
-            ShenshinAquarium.AddFish(new Clownfish("Lara", Gender.Female));
-            ShenshinAquarium.AddFish(new Clownfish("Indiana", Gender.Male));
-
-            ShenshinAquarium.AddFish(new Sole("Gandhi", Gender.Male));
-            ShenshinAquarium.AddFish(new Sole("Natalie", Gender.Female));
-
-            ShenshinAquarium.AddFish(new Bass("Charles", Gender.Male));
-            ShenshinAquarium.AddFish(new Bass("Forest", Gender.Male));
-
-            ShenshinAquarium.AddFish(new Carp("Gustav", Gender.Male));
-            ShenshinAquarium.AddFish(new Carp("Shania", Gender.Female));
-
-            ShenshinAquarium.AddAlga(new Alga());
-            ShenshinAquarium.AddAlga(new Alga());
-            ShenshinAquarium.AddAlga(new Alga());
-            ShenshinAquarium.AddAlga(new Alga());
+            YinYangAquarium.AddFish(new Grouper("Matthew", Gender.Male));
+            YinYangAquarium.AddFish(new Grouper("Mark", Gender.Male));
+            YinYangAquarium.AddFish(new Grouper("Luke", Gender.Male));
+            YinYangAquarium.AddFish(new Grouper("John", Gender.Male));
+            
+            YinYangAquarium.AddFish(new Tuna("Dean", Gender.Male));
+            YinYangAquarium.AddFish(new Tuna("Sam", Gender.Male));
+            YinYangAquarium.AddFish(new Tuna("Chaos", Gender.Female));
+            
+            YinYangAquarium.AddFish(new Clownfish("Lara", Gender.Female));
+            YinYangAquarium.AddFish(new Clownfish("Indiana", Gender.Male));
+            
+            YinYangAquarium.AddFish(new Sole("Gandhi", Gender.Male));
+            YinYangAquarium.AddFish(new Sole("Natalie", Gender.Female));
+            
+            YinYangAquarium.AddFish(new Bass("Charles", Gender.Male));
+            YinYangAquarium.AddFish(new Bass("Forest", Gender.Male));
+            
+            YinYangAquarium.AddFish(new Carp("Gustav", Gender.Male));
+            YinYangAquarium.AddFish(new Carp("Shania", Gender.Female));
+            
+            YinYangAquarium.AddAlga(new Alga());
+            YinYangAquarium.AddAlga(new Alga());
+            YinYangAquarium.AddAlga(new Alga());
+            YinYangAquarium.AddAlga(new Alga());
 
             int count = 0;
 
             while (count<20)
             {
-                ShenshinAquarium.Update();
+                YinYangAquarium.Update();
                 Console.ReadLine();
                 ++count;
             }

@@ -31,7 +31,8 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return "This fish is a Sole. Soles are vegeterian.\n";
+            return String.Format("{0}\n{1} are vegetarian. And gay.\n", base.ToString(), GetType().Name);
+
         }
 
         #endregion

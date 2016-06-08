@@ -33,29 +33,31 @@ namespace CSharquarium_console.Models
 
         public void Eat(Fish DevouredFish, Aquarium Aq)
         {
-            Console.WriteLine("{0} dévore brutalement {1}\n", this.Name, DevouredFish.Name );
-            Aq.RemoveFish(DevouredFish);
+            //Console.WriteLine("{0} dévore brutalement {1}\n", this.Name, DevouredFish.Name );
+            //Aq.RemoveFish(DevouredFish);
         }
 
         public override void Update(Aquarium Aq)
         {
-            Console.WriteLine("{0}Its name is {1}.\n{2} is updating.\n", this.ToString(), this.Name, this.Name);
+            Console.WriteLine("{0}Its name is {1} and {1} has {2} HP.\n{1} is updating.\n", this.ToString(), this.Name, this.HP);
 
-            Random rnd = new Random();
-            var f = Aq.Fishes[rnd.Next(0, Aq.Fishes.Count())];
-            if (f == this)
-            {
-                Console.WriteLine("The {0} named {1} tried to eat itself but couldn't do that.", this.GetType(), this.Name);
-            }
-            else if (f.GetType() == this.GetType())
-            {
-                Console.WriteLine("The {0} named {1} tried to eat one of his own species, but couldn't do that.", this.GetType(), this.Name);
-            }
-            else
-            {
-                Console.WriteLine("The {0} named {1} eats the {2} named {3}", this.GetType(), this.Name, f.GetType(), f.Name);
-                Eat(f, Aq);
-            }
+            //TODO : à décommenter quand solution trouvée pour que f = sous-liste des poissons
+
+            //if (f.Equals( this))
+            //{
+            //    Console.WriteLine("The {0} named {1} tried to eat itself but couldn't do that.", this.GetType(), this.Name);
+            //}
+
+            //else if (f.GetType() == this.GetType())
+            //{
+            //    Console.WriteLine("The {0} named {1} tried to eat one of his own species, but couldn't do that.", this.GetType(), this.Name);
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("The {0} named {1} eats the {2} named {3}", this.GetType(), this.Name, f.GetType(), f.Name);
+            //    Eat(f, Aq);
+            //}
         }
 
         #endregion

@@ -25,22 +25,13 @@ namespace CSharquarium_console.Models
 
         public void Eat(Alga alga, Aquarium Aq)
         {
-            Console.WriteLine("{0} broute paisiblement une algue...\n", this.Name);
-            Aq.RemoveAlga(alga);
+            //Console.WriteLine("{0} broute paisiblement une algue...\n", this.Name);
+            //Aq.RemoveAlga(alga);
         }
 
         public override void Update(Aquarium Aq)
         {
-            Console.WriteLine("{0}Its name is {1}.\n{2} is updating.\n", this.ToString(), this.Name, this.Name);
-
-            Random rnd = new Random();
-            if (Aq.Algae.Count() == 0)
-                Console.WriteLine("Plus d'algue...");
-            else
-            {
-                var a = Aq.Algae[rnd.Next(0, Aq.Algae.Count())];
-                Eat(a, Aq);
-            }
+            //Console.WriteLine("{0}Its name is {1} and {1} has {2} HP.\n{1} is updating.\n", this.ToString(), this.Name, this.HP);
         }
 
         

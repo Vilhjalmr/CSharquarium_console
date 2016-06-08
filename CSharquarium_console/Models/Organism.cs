@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace CSharquarium_console.Models
 {
-    public class Alga : Organism
+    public abstract class Organism
     {
 
-        public Alga()
+        public int HP { get; set; }
+
+        public Organism()
         {
             this.HP = 10;
         }
+
+
     }
 }

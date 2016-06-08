@@ -30,7 +30,7 @@ namespace CSharquarium_console.Models
         }
         public override string ToString()
         {
-            return "This fish is a Tuna. Tunas are delicious.\n";
+            return String.Format("{0}\n{1} are delicious.\n", base.ToString(), GetType().Name);
         }
         #endregion
     }
