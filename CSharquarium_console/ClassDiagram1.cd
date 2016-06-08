@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSharquarium_console.Models.Alga" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Alga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.AlgaeEatingFish" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AlgaeEatingFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Aquarium" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAQAAAAAAAAAAAAAAAAQCMAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Aquarium.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Bass">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Carp">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Carp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Clownfish">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Clownfish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Fish" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Fish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.FishEatingFish" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FishEatingFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Grouper">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Grouper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Sole">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Sole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Models.Tuna">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Tuna.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharquarium_console.Program" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CSharquarium_console.Models.CarnivorousFishRaces" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FishRaces.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CSharquarium_console.Models.HerbivorousFishRaces" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FishRaces.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CSharquarium_console.Models.Gender" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>Models\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
