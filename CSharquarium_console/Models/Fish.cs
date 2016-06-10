@@ -33,7 +33,7 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return String.Format("This is {0}. {0} is a {1}, and it has {2} HP", this.Name, GetType().Name, this.hp);
+            return String.Format("This is {0}. {0} is a {1}, and it has {2} HP", this.Name, GetType().Name, this.HP);
         }
 
         // TODO: implement this
@@ -48,7 +48,6 @@ namespace CSharquarium_console.Models
         // TODO : implement this
         private Gender GenerateGender()
         {
-            
             return Gender.Male;
         }
 

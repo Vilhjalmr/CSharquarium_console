@@ -43,18 +43,23 @@ namespace CSharquarium_console.Models
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("The {0} named {1} tries eating one of their own species but can't do that. Fucking cannibals!", this.GetType().Name, this.Name);
             }
+            else if (!target.IsAlive)
+            {
+                // Can't display target's name due to target being of Organism type
+                Console.WriteLine("The {0} named {1} encounters the dead body of xxx!", this.GetType().Name, this.Name);
+            }
             else if (target is Alga) // Fish tries to eat alga
             {
-                Console.WriteLine("{0} is a {1}s and {1} don't eat no goddamn alga!", this.Name, this.GetType().Name);
+                Console.WriteLine("{0} is a {1} and {1}s don't eat no goddamn alga!", this.Name, this.GetType().Name);
             }
             else // Fish tries to eat another fish, of a different species
             {
                 Fish targetedFish = (Fish)target;
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("The {0} named {1} brutally bites the {2} named {3}. Savage.", this.GetType().Name, this.Name, targetedFish.GetType().Name, targetedFish.Name);
-                targetedFish.loseHP(4);
-                this.regainHP(5);
-                Console.WriteLine("The {0} named {1} now has {2}HP.", targetedFish.GetType().Name, targetedFish.Name, targetedFish.hp);
+                targetedFish.LoseHP(4);
+                this.RegainHP(5);
+                Console.WriteLine("The {0} named {1} now has {2}HP.", targetedFish.GetType().Name, targetedFish.Name, targetedFish.HP);
             }
         }
 
@@ -62,7 +67,7 @@ namespace CSharquarium_console.Models
 
         public override void Update(Aquarium Aq)
         {
-            Console.WriteLine("{0}Its name is {1} and {1} has {2} HP.\n{1} is updating.\n", this.ToString(), this.Name, this.hp);
+            Console.WriteLine("{0}Its name is {1} and {1} has {2} HP.\n{1} is updating.\n", this.ToString(), this.Name, this.HP);
 
             //TODO : à décommenter quand solution trouvée pour que f = sous-liste des poissons
 

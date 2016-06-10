@@ -13,5 +13,10 @@ namespace CSharquarium_console.Models
         {
             
         }
+
+        public override void GiveBirth()
+        {
+
+        }
     }
 }
