@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharquarium_console.Models
 {
+    [Serializable]
     public enum Gender
     {
         Male,
-        Female,
-        Unknown
+        Female
     }
 }

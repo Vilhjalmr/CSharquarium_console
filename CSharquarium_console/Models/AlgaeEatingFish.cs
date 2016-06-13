@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharquarium_console.Models
 {
+    [Serializable]
     public abstract class AlgaeEatingFish : Fish
     {
         #region Constructors
@@ -31,23 +32,21 @@ namespace CSharquarium_console.Models
         {
             if (target is Fish)
             {
+                string str = string.Format("The {0} named {1} meets another fish but they want algae!", this.GetType().Name, this.Name);
+
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("The {0} named {1} meets another fish but they want algae!", this.GetType().Name, this.Name);
+                Aquarium.DualOutput(str);
             }
             else if (target is Alga)
             {
-                Console.WriteLine("The {0} named {1} eats some alga.", this.GetType().Name, this.Name);
+                string str = string.Format("The {0} named {1} eats some alga.", this.GetType().Name, this.Name);
+
+                Aquarium.DualOutput(str);
+
                 target.LoseHP(2);
                 this.RegainHP(3);
             }
         }
-
-        // TODO: decide if this needs to be removed
-        public override void Update(Aquarium Aq)
-        {
-            //Console.WriteLine("{0}Its name is {1} and {1} has {2} HP.\n{1} is updating.\n", this.ToString(), this.Name, this.HP);
-        }
-
         
         #endregion
 

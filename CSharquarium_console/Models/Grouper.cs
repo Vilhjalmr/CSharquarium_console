@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharquarium_console.Models
 {
+    [Serializable]
     public class Grouper : FishEatingFish
     {
         #region Constructors
@@ -23,13 +24,6 @@ namespace CSharquarium_console.Models
         #endregion
 
         #region Methods
-
-        public override void Update(Aquarium Aq)
-        {
-            base.Update(Aq);
-            // TODO: add eat() and other logic
-        }
-
         public override string ToString()
         {
             return String.Format("{0}\n{1} are carnivorous\n", base.ToString(), GetType().Name);
@@ -37,6 +31,7 @@ namespace CSharquarium_console.Models
         }
 
         
+
 
         #endregion
     }

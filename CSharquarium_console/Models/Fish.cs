@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharquarium_console.Models
 {
+    [Serializable]
     public abstract class Fish : Organism
     {    
         #region Properties
@@ -29,8 +30,6 @@ namespace CSharquarium_console.Models
         #endregion
 
         #region Methods
-        public abstract void Update(Aquarium Aq);
-
         public override string ToString()
         {
             return String.Format("This is {0}. {0} is a {1}, and it has {2} HP", this.Name, GetType().Name, this.HP);
@@ -50,9 +49,36 @@ namespace CSharquarium_console.Models
         {
             return Gender.Male;
         }
-
-        
-
+        public override void GrowOld()
+        {
+            if (this.IsAlive)
+            {
+                ++this.Age;
+                // Some types of fish change sex with age
+                if (this.Age == 10 && (this is Grouper || this is Bass))
+                {
+                    Fish fish = this as Fish;
+                    fish.SwitchSex();
+                }
+            }
+            
+        }
+        public void SwitchSex()
+        {
+            if (this.Gender == Gender.Male)
+            {
+                this.Gender = Gender.Female;
+            }
+            else
+            {
+                this.Gender = Gender.Male;
+            }
+            Console.WriteLine("\t\t{0} named {1} just became {2}", this.GetType().Name, this.Name, this.Gender);
+        }
+        public Fish GiveBirth(Fish fish)
+        {
+            return GetType().GetConstructor(Type.EmptyTypes).Invoke(new Object[] { }) as Fish;
+        }
         public abstract void Eat(Organism target);
 
         //public abstract void ChangeGender();

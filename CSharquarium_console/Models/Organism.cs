@@ -3,38 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace CSharquarium_console.Models
 {
+    [Serializable]
+    [XmlInclude(typeof(Alga))]
+    [XmlInclude(typeof(Fish))]
+    [XmlInclude(typeof(AlgaeEatingFish))]
+    [XmlInclude(typeof(FishEatingFish))]
+    [XmlInclude(typeof(Grouper))]
+    [XmlInclude(typeof(Sole))]
+    [XmlInclude(typeof(Tuna))]
+    [XmlInclude(typeof(Carp))]
+    [XmlInclude(typeof(Bass))]
+    [XmlInclude(typeof(Clownfish))]
+
     public abstract class Organism
     {
-
-        public int HP { get; private set; }
-        public int Age { get; private set; }
-        public bool IsAlive { get; set; }
+        public int HP { get; /*protected*/ set; }
+        public int Age { get; /*protected*/ set; }
+        public bool IsAlive { get; /*protected*/ set; }
 
         public Organism()
         {
-            Random rnd = new Random();
+            //Random rnd = new Random();
 
             this.HP = 10;
             this.IsAlive = true;
             this.Age = 1/*rnd.Next(0, 19)*/;
         }
-
-
-        public void GrowOld()
+        public Organism(int age = 0)
         {
-            if (this.IsAlive)
-            {
-                ++this.Age;
-                if (this.Age >= 20)
-                {
-                    this.Die();
-                }
-            }
-            
+            this.HP = 10;
+            this.IsAlive = true;
+            this.Age = age;
         }
+
+
+        public abstract void GrowOld();
         public void LoseHP()
         {
             if (this.IsAlive)
@@ -60,14 +67,16 @@ namespace CSharquarium_console.Models
         {
             this.HP += v;
         }
-        public abstract void GiveBirth();
         /// <summary>
         /// All organism must die. This method can be called from LoseHP or from GrowOld
         /// </summary>
         public void Die()
         {
             this.IsAlive = false;
-            Console.WriteLine("An organism of type {0} died.", this.GetType().Name);
+
+            string str = string.Format("An organism of type {0} died.", this.GetType().Name);
+
+            Aquarium.DualOutput(str);
         }
 
     }
