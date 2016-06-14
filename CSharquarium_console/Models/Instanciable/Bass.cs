@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharquarium_console.Models
+namespace CSharquarium_console.Models.Instanciable
 {
     [Serializable]
-    public class Sole : AlgaeEatingFish
+    public class Bass : AlgaeEatingFish
     {
         #region Constructors
 
-        public Sole() : base()
+        public Bass() : base()
         {
 
         }
 
-        public Sole(string name, Gender gender) : base(name, gender)
+        public Bass(string name, Gender gender) : base(name, gender)
         {
 
         }
@@ -26,12 +26,10 @@ namespace CSharquarium_console.Models
 
         public override string ToString()
         {
-            return String.Format("{0}\n{1} are vegetarian. And gay.\n", base.ToString(), GetType().Name);
-
+            return String.Format("{0}\nBasses are essential in the well being of music.\n", base.ToString());
         }
 
-
-
+  
         #endregion
     }
 }

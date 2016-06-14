@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
-namespace CSharquarium_console.Models
+namespace CSharquarium_console.Utils
 {
     public delegate bool MyDelegate<T>(T thingy);
 
@@ -64,7 +67,6 @@ namespace CSharquarium_console.Models
             return count;
         }
     }
-    
 
     public static class PseudoLink<T, X>
     {
@@ -73,7 +75,7 @@ namespace CSharquarium_console.Models
         /// </summary>
         /// <param name="list">List to iterate through</param>
         /// <returns>Count of elements of type X in a list of type T</returns>
-        public static int Count (List<T> list)
+        public static int Count(List<T> list)
         {
             int count = 0;
             foreach (T item in list)
@@ -101,7 +103,6 @@ namespace CSharquarium_console.Models
             return Subset;
         }
     }
-
 }
 
 

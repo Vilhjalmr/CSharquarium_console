@@ -1,5 +1,8 @@
-﻿using System;
+﻿using CSharquarium_console.Models.Instanciable;
+using CSharquarium_console.Utils;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,26 +38,31 @@ namespace CSharquarium_console.Models
             return String.Format("This is {0}. {0} is a {1}, and it has {2} HP", this.Name, GetType().Name, this.HP);
         }
 
-        // TODO: implement this
-        //public abstract Fish GiveBirth(Fish mate);
-
-        // TODO: implement this
         private string GenerateName()
         {
-            
-            return "loulou";
+            int nbr = CustomRandom.GetRandom(200);
+
+            string path = string.Format("{0}\\..\\..", Directory.GetCurrentDirectory());
+            path = string.Format(@"{0}\Names.txt", path);
+
+            return File.ReadLines(path).Skip(nbr).Take(1).First().Trim();
+
         }
-        // TODO : implement this
         private Gender GenerateGender()
         {
-            return Gender.Male;
+            Random rnd = new Random();
+            if (rnd.Next(0, 42) % 2 == 0)
+                return Gender.Male;
+            else
+                return Gender.Female;
         }
         public override void GrowOld()
         {
             if (this.IsAlive)
             {
                 ++this.Age;
-                // Some types of fish change sex with age
+                // Some types of fish change sex with age. 
+                // TODO: Could be done more elegantly (enum sexuality?)
                 if (this.Age == 10 && (this is Grouper || this is Bass))
                 {
                     Fish fish = this as Fish;

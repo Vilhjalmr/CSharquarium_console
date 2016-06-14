@@ -1,8 +1,11 @@
 ﻿using CSharquarium_console.Models;
+using CSharquarium_console.Models.Instanciable;
+using CSharquarium_console.Utils;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
@@ -15,58 +18,71 @@ namespace CSharquarium_console
     {
         static void Main(string[] args)
         {
-            Aquarium YinYangAquarium = new Aquarium();
+            string PathToSaveFile = @"C:\temp\aquariumtest.xml";
 
-            YinYangAquarium.AddFish(new Grouper("Matthew", Gender.Male));
-            YinYangAquarium.AddFish(new Grouper("Mark", Gender.Male));
-            YinYangAquarium.AddFish(new Grouper("Luke", Gender.Male));
-            YinYangAquarium.AddFish(new Grouper("John", Gender.Male));
-            
-            YinYangAquarium.AddFish(new Tuna("Dean", Gender.Male));
-            YinYangAquarium.AddFish(new Tuna("Sam", Gender.Male));
-            YinYangAquarium.AddFish(new Tuna("Chaos", Gender.Female));
-            
-            YinYangAquarium.AddFish(new Clownfish("Lara", Gender.Female));
-            YinYangAquarium.AddFish(new Clownfish("Indiana", Gender.Female));
-            
-            YinYangAquarium.AddFish(new Sole("Gandhi", Gender.Male));
-            YinYangAquarium.AddFish(new Sole("Natalie", Gender.Female));
-            YinYangAquarium.AddFish(new Sole("Batgirl", Gender.Female));
+            if (File.Exists(PathToSaveFile))
+            {
+                // Check if savefile already exists. If so, load it, then run one update of the aquarium
+                Aquarium JinYangAquarium = SaveLoadFile<Aquarium>.LoadFromXML(typeof(Aquarium), PathToSaveFile);
+                JinYangAquarium.Update();
+                Console.ReadLine();
 
-            YinYangAquarium.AddFish(new Bass("Charles", Gender.Male));
-            YinYangAquarium.AddFish(new Bass("Forest", Gender.Male));
-            
-            YinYangAquarium.AddFish(new Carp("Gustav", Gender.Male));
-            YinYangAquarium.AddFish(new Carp("Shania", Gender.Female));
-            
-            YinYangAquarium.AddAlga(new Alga());
-            YinYangAquarium.AddAlga(new Alga());
-            YinYangAquarium.AddAlga(new Alga());
-            YinYangAquarium.AddAlga(new Alga());
+                // Save file to XML using custom method
+                SaveLoadFile<Aquarium>.SaveToXML(typeof(Aquarium), PathToSaveFile, JinYangAquarium);
+            }
+
+            // Si non, on génère une nouvelle simulation
+            else GenerateNewSimulation(PathToSaveFile);
+        }
+
+        public static void GenerateNewSimulation(string path)
+        {
+            Aquarium JinYangAquarium = new Aquarium();
+            JinYangAquarium.Initialize();
+
+            // TODO: générer tous les poissons de départ de manière aléatoire
+            // JinYangAquarium.Initialize(new int[] {4, 3, 2, 3, 2, 2, 4});
+
+            //JinYangAquarium.AddFish(new Grouper());
+            //JinYangAquarium.AddFish(new Grouper());
+            //JinYangAquarium.AddFish(new Grouper());
+            //JinYangAquarium.AddFish(new Grouper());
+
+            //JinYangAquarium.AddFish(new Tuna());
+            //JinYangAquarium.AddFish(new Tuna());
+            //JinYangAquarium.AddFish(new Tuna());
+
+            //JinYangAquarium.AddFish(new Clownfish());
+            //JinYangAquarium.AddFish(new Clownfish());
+
+            //JinYangAquarium.AddFish(new Sole());
+            //JinYangAquarium.AddFish(new Sole());
+            //JinYangAquarium.AddFish(new Sole());
+
+            //JinYangAquarium.AddFish(new Bass());
+            //JinYangAquarium.AddFish(new Bass());
+
+            //JinYangAquarium.AddFish(new Carp());
+            //JinYangAquarium.AddFish(new Carp());
+
+            //JinYangAquarium.AddAlga(new Alga());
+            //JinYangAquarium.AddAlga(new Alga());
+            //JinYangAquarium.AddAlga(new Alga());
+            //JinYangAquarium.AddAlga(new Alga());
+
 
             int count = 0;
 
-            while (count<5)
+            while (count < 1)
             {
-                YinYangAquarium.Update();
+                JinYangAquarium.Update();
                 Console.ReadLine();
                 ++count;
             }
+            
+            // Save file to XML using custom method
+            SaveLoadFile<Aquarium>.SaveToXML(typeof(Aquarium), path, JinYangAquarium);
 
-            XmlSerializer serializer = new XmlSerializer(typeof(Aquarium));
-
-            //var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//SerializationOverview.xml";
-            //System.IO.FileStream file = System.IO.File.Create(path);
-
-            //serializer.Serialize(file, YinYangAquarium);
-            //file.Close();
-
-            // SERIALIZE
-            using (StreamWriter writer = new StreamWriter(@"C:\temp\aquariumtest.xml"))
-            {
-                serializer.Serialize(writer, YinYangAquarium);
-
-            }
         }
     }
 }

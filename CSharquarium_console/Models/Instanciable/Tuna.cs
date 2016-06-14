@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharquarium_console.Models
+namespace CSharquarium_console.Models.Instanciable
 {
     [Serializable]
     public class Tuna : FishEatingFish

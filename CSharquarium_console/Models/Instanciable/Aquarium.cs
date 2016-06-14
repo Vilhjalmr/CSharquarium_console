@@ -1,10 +1,13 @@
-﻿using System;
+﻿using CSharquarium_console.Models.Instanciable;
+using CSharquarium_console.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharquarium_console.Models
+namespace CSharquarium_console.Models.Instanciable
 {
     [Serializable]
 
@@ -16,33 +19,33 @@ namespace CSharquarium_console.Models
         public List<Organism> Organisms { get; private set; }
         public int turn = 0;
 
+        private List<Type> _Types;
+
         #endregion
 
         #region Constructors
         public Aquarium()
         {
             Organisms = new List<Organism>();
-            //Fishes = new List<Fish>();
-            //Algae = new List<Alga>();
+            _Types = CustomGetTypes.GetInstanciableTypes("CSharquarium_console.Models.Instanciable");
         }
         #endregion
+
+
 
         #region Methods
         public void AddFish(Fish fish)
         {
             Organisms.Add(fish);
         }
-
         public void RemoveFish(Fish fish)
         {
             Organisms.Remove(fish);
         }
-
         public void AddAlga(Alga alga)
         {
             Organisms.Add(alga);
         }
-
         public void RemoveAlga(Alga alga)
         {
             Organisms.Remove(alga);
@@ -50,9 +53,55 @@ namespace CSharquarium_console.Models
 
         public void Initialize()
         {
-            // TODO: Initialize aquarium with random fishes and algae
+            foreach (Type T in _Types)
+            {
+                bool InputOK = false;
+                int value;
+
+                // TODO: Should factorize this
+                do
+                {
+                    Console.WriteLine("How many {0} do you want to start with? (1-10)", T.Name);
+
+                    string line = Console.ReadLine();
+
+                    if (int.TryParse(line, out value))
+                    {
+                        // this is an int.
+                        if (value > 0 && value <= 10)
+                            InputOK = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not quite my input.");
+                    }
+                } while (!InputOK);
+
+                // AnyFishType will list the type of every fish class that has, as base class, one of the types mentionned in the string 
+                Array FishTypes = (CustomGetTypes.GetTypeWhenParent("CSharquarium_console.Models.Instanciable", new[] { typeof(AlgaeEatingFish).Name, typeof(FishEatingFish).Name })).ToArray();
+
+                if (T == typeof(Alga))
+                {
+                    for (int i = 0; i < value; ++i)
+                    {
+                        Organisms.Add(T.GetConstructor(Type.EmptyTypes).Invoke(new object[] { }) as Alga);
+                    }
+                }
+
+                else if (Array.IndexOf(FishTypes, T) != -1)
+                    //T == typeof(Fish))
+                {
+                    for (int i = 0; i < value; ++i)
+                    {
+                        Organisms.Add(T.GetConstructor(Type.EmptyTypes).Invoke(new object[] { }) as Fish);
+                    }
+                }
+            }
         }
 
+        /// <summary>
+        /// Gives account of how things started this turn. Output to console
+        /// </summary>
         public void InitialDisplay()
         {
             int FishesCount, AlgaeCount;
@@ -66,7 +115,7 @@ namespace CSharquarium_console.Models
 
             List<Organism> AliveOrganisms = PseudoLink<Organism>.GetIf(Organisms, IsOrganismAlive);
 
-            string str = string.Format("There are currently {0} fishes and {1} algae in the aquarium.\n: ",
+            string str = string.Format("There are currently {0} fishes and {1} algae in the aquarium.:\n",
                 PseudoLink<Organism, Fish>.Count(Organisms),
                 PseudoLink<Organism, Alga>.Count(Organisms));
 
@@ -79,6 +128,10 @@ namespace CSharquarium_console.Models
             Console.WriteLine(str);
             WriteToFile(str);            
         }
+
+        /// <summary>
+        /// Each turn, a fish gets angrier. Takes the form of losing 1 HP.
+        /// </summary>
         public void StarveEveryFish()
         {
             Console.WriteLine("**********\nA fish needs a meal\n**********");
@@ -99,6 +152,7 @@ namespace CSharquarium_console.Models
             }
 
         }
+
         /// <summary>
         /// Each alga grows at each turn.
         /// Takes the form of gaining some HP.
@@ -117,6 +171,7 @@ namespace CSharquarium_console.Models
                 }
             }
         }
+
         /// <summary>
         /// Each organism of type fish gets one shot at eating.
         /// Tests are made to determine if random target can be eaten.
@@ -132,20 +187,19 @@ namespace CSharquarium_console.Models
                 // Get random element in Organisms. Send it to each fish. Conditions tested in Eat(Organism target)
                 if (fish.IsAlive && fish.HP <= 5)
                 {
-                    Random rnd = new Random();
-                    int r = rnd.Next(0, Organisms.Count());
-                    Organism target = Organisms[r];
+                    int nbr = CustomRandom.GetRandom(Organisms.Count());
+                    Organism target = Organisms[nbr];
                     if (target.IsAlive)
                     {
-                        fish.Eat(Organisms[r]);
+                        fish.Eat(Organisms[nbr]);
                     }
-                }
-                     
+                }      
             }
             Console.ResetColor();
             Console.WriteLine("**********\nLunchTime over! For now.\n**********");
         
         }
+
         /// <summary>
         /// Each turn, an organism get old. This is sad.
         /// </summary>
@@ -169,6 +223,7 @@ namespace CSharquarium_console.Models
                 WriteToFile(str);
             }
         }
+
         /// <summary>
         /// Used to manage fish reproduction.
         /// 
@@ -182,8 +237,9 @@ namespace CSharquarium_console.Models
             {
                 if (!IsFishHungry(fish))
                 {
-                    Random rnd = new Random();
-                    int nbr = rnd.Next(0, FishList.Count);
+                    // TODO: maybe change this and reflect random encounter of fish and random element (be it fish or else)
+                    // TODO: random encounters may be factorised into their own method (lunchtime and reproducefishes)
+                    int nbr = CustomRandom.GetRandom(FishList.Count);
                     Fish otherFish = ((Fish)FishList[nbr]);
 
                     if (otherFish != fish)  // A fish cannot inseminate themselves!
@@ -216,6 +272,10 @@ namespace CSharquarium_console.Models
                 }
             }
         }
+
+        /// <summary>
+        /// Every alga that has at least 10 HP divides itself in two. Each gets half the amount of HP.
+        /// </summary>
         public void ReproduceAlgae()
         {
             List<Organism> AlgaList = new List<Organism>();
@@ -228,6 +288,10 @@ namespace CSharquarium_console.Models
                 string str = string.Format("An alga just gave birth to a smaller alga.");
             }
         }
+
+        /// <summary>
+        /// Gives account of aquarium's state at end of turn. Output to console.
+        /// </summary>
         public void StatusDisplay()
         {
             List<Organism> ListFish = new List<Organism>();
@@ -268,6 +332,7 @@ namespace CSharquarium_console.Models
             StatusDisplay();
         }
 
+
         public static void WriteToFile(string str)
         {
             using (System.IO.StreamWriter file =
@@ -289,7 +354,6 @@ namespace CSharquarium_console.Models
         {
             return org.IsAlive;
         }
-
         private static bool IsFishHungry(Fish fish)
         {
             return fish.HP < 5;

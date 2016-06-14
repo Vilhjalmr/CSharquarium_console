@@ -43,22 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Alga.cs" />
+    <Compile Include="Models\Instanciable\Alga.cs" />
     <Compile Include="Models\AlgaeEatingFish.cs" />
-    <Compile Include="Models\Aquarium.cs" />
-    <Compile Include="Models\Bass.cs" />
-    <Compile Include="Models\Carp.cs" />
-    <Compile Include="Models\Clownfish.cs" />
+    <Compile Include="Models\Instanciable\Aquarium.cs" />
+    <Compile Include="Models\Instanciable\Bass.cs" />
+    <Compile Include="Models\Instanciable\Carp.cs" />
+    <Compile Include="Models\Instanciable\Clownfish.cs" />
     <Compile Include="Models\FishEatingFish.cs" />
     <Compile Include="Models\Fish.cs" />
     <Compile Include="Models\FishRaces.cs" />
     <Compile Include="Models\Gender.cs" />
-    <Compile Include="Models\Grouper.cs" />
+    <Compile Include="Models\Instanciable\Grouper.cs" />
     <Compile Include="Models\Organism.cs" />
-    <Compile Include="Models\Sole.cs" />
-    <Compile Include="Models\Tools_Jerome.cs" />
-    <Compile Include="Models\Tools.cs" />
-    <Compile Include="Models\Tuna.cs" />
+    <Compile Include="Models\Instanciable\Sole.cs" />
+    <Compile Include="Utils\CustomGetTypes.cs" />
+    <Compile Include="Utils\CustomRandom.cs" />
+    <Compile Include="Utils\SaveLoadFile.cs" />
+    <Compile Include="Utils\PseudoLink.cs" />
+    <Compile Include="Models\Instanciable\Tuna.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +68,7 @@
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

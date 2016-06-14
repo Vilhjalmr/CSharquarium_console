@@ -4,32 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharquarium_console.Models
+namespace CSharquarium_console.Models.Instanciable
 {
     [Serializable]
-    public class Bass : AlgaeEatingFish
+    public class Clownfish : FishEatingFish
     {
         #region Constructors
 
-        public Bass() : base()
+        public Clownfish() : base()
         {
 
         }
 
-        public Bass(string name, Gender gender) : base(name, gender)
+        public Clownfish(string name, Gender gender) : base(name, gender)
         {
 
         }
         #endregion
 
         #region Methods
-
         public override string ToString()
         {
-            return String.Format("{0}\nBasses are essential in the well being of music.\n", base.ToString());
+            return String.Format("{0}\n{1} are awesome.\n", base.ToString(), GetType().Name);
+
         }
 
-  
         #endregion
     }
 }
