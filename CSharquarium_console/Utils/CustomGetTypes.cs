@@ -27,7 +27,8 @@ namespace CSharquarium_console.Utils
             List<Type> result = new List<Type>();
 
             var q = from t in Assembly.GetExecutingAssembly().GetTypes()
-                    where t.IsClass && t.Namespace == nmspc && Array.IndexOf(parent, t.BaseType.Name) != -1
+                    // IndexOf returns -1 if it didn't find what it was looking for
+                    where t.IsClass && t.Namespace == nmspc && Array.IndexOf(parent, t.BaseType.Name) != -1 
                     select t;
 
             result = q.ToList();
