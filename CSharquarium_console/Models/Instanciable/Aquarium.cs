@@ -2,6 +2,7 @@
 using CSharquarium_console.Utils;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -77,7 +78,10 @@ namespace CSharquarium_console.Models.Instanciable
                     }
                 } while (!InputOK);
 
-                // AnyFishType will list the type of every fish class that has, as base class, one of the types mentionned in the string 
+                /*
+                 * FishTypes will list the type of every fish class that has, as base class, one of the types mentionned in the string array
+                 * Add other basetypes to extend functionality
+                 */
                 Array FishTypes = (CustomGetTypes.GetTypeWhenParent("CSharquarium_console.Models.Instanciable", new[] { typeof(AlgaeEatingFish).Name, typeof(FishEatingFish).Name })).ToArray();
 
                 if (T == typeof(Alga))
@@ -87,9 +91,7 @@ namespace CSharquarium_console.Models.Instanciable
                         Organisms.Add(T.GetConstructor(Type.EmptyTypes).Invoke(new object[] { }) as Alga);
                     }
                 }
-
-                else if (Array.IndexOf(FishTypes, T) != -1)
-                    //T == typeof(Fish))
+                else if (Array.IndexOf(FishTypes, T) != -1) // returning -1 means that IndexOf did not find the value you were looking for
                 {
                     for (int i = 0; i < value; ++i)
                     {
@@ -335,8 +337,9 @@ namespace CSharquarium_console.Models.Instanciable
 
         public static void WriteToFile(string str)
         {
-            using (System.IO.StreamWriter file =
-            new System.IO.StreamWriter(@"C:\temp\log.txt", true))
+            string path = string.Format("{0}\\..\\..", Directory.GetCurrentDirectory());
+            path = string.Format(@"{0}\Names.txt", path);
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(path, true))
             {
                 file.WriteLine(str);
             }

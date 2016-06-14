@@ -18,7 +18,8 @@ namespace CSharquarium_console
     {
         static void Main(string[] args)
         {
-            string PathToSaveFile = @"C:\temp\aquariumtest.xml";
+            string PathToSaveFile = string.Format("{0}\\..\\..", Directory.GetCurrentDirectory());
+            PathToSaveFile = string.Format(@"{0}\CSharQuarium.xml", PathToSaveFile);
 
             if (File.Exists(PathToSaveFile))
             {
@@ -31,7 +32,7 @@ namespace CSharquarium_console
                 SaveLoadFile<Aquarium>.SaveToXML(typeof(Aquarium), PathToSaveFile, JinYangAquarium);
             }
 
-            // Si non, on génère une nouvelle simulation
+            // If not, start from scratch
             else GenerateNewSimulation(PathToSaveFile);
         }
 
@@ -39,37 +40,6 @@ namespace CSharquarium_console
         {
             Aquarium JinYangAquarium = new Aquarium();
             JinYangAquarium.Initialize();
-
-            // TODO: générer tous les poissons de départ de manière aléatoire
-            // JinYangAquarium.Initialize(new int[] {4, 3, 2, 3, 2, 2, 4});
-
-            //JinYangAquarium.AddFish(new Grouper());
-            //JinYangAquarium.AddFish(new Grouper());
-            //JinYangAquarium.AddFish(new Grouper());
-            //JinYangAquarium.AddFish(new Grouper());
-
-            //JinYangAquarium.AddFish(new Tuna());
-            //JinYangAquarium.AddFish(new Tuna());
-            //JinYangAquarium.AddFish(new Tuna());
-
-            //JinYangAquarium.AddFish(new Clownfish());
-            //JinYangAquarium.AddFish(new Clownfish());
-
-            //JinYangAquarium.AddFish(new Sole());
-            //JinYangAquarium.AddFish(new Sole());
-            //JinYangAquarium.AddFish(new Sole());
-
-            //JinYangAquarium.AddFish(new Bass());
-            //JinYangAquarium.AddFish(new Bass());
-
-            //JinYangAquarium.AddFish(new Carp());
-            //JinYangAquarium.AddFish(new Carp());
-
-            //JinYangAquarium.AddAlga(new Alga());
-            //JinYangAquarium.AddAlga(new Alga());
-            //JinYangAquarium.AddAlga(new Alga());
-            //JinYangAquarium.AddAlga(new Alga());
-
 
             int count = 0;
 

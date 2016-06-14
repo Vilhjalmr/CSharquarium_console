@@ -197,4 +197,646 @@ Prince Russel
 Therese Hallam  
 Oren Markum  
 Denny Jehle  
-Sandy Hartzell  
+Sandy Hartzell  *** Turn 0 ***
+
+
+There are currently 14 fishes and 4 algae in the aquarium.:
+
+18 of these organisms are alive
+Fish of type Bass named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Anne Gigliotti, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Penny Igoe, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Coletta Carlisle, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Marie Lister is getting older. They're now 2 turns old.
+The Bass named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Micheal Mondor is getting older. They're now 2 turns old.
+The Carp named Anne Gigliotti is getting older. They're now 2 turns old.
+The Clownfish named Marie Lister is getting older. They're now 2 turns old.
+The Clownfish named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Debbra Eis is getting older. They're now 2 turns old.
+The Grouper named Marie Lister is getting older. They're now 2 turns old.
+The Sole named Penny Igoe is getting older. They're now 2 turns old.
+The Sole named Coletta Carlisle is getting older. They're now 2 turns old.
+The Sole named Marie Lister is getting older. They're now 2 turns old.
+The Tuna named Drusilla Epps is getting older. They're now 2 turns old.
+The Tuna named Marie Lister is getting older. They're now 2 turns old.
+*** Turn 0 ***
+
+
+There are currently 13 fishes and 1 algae in the aquarium.:
+
+14 of these organisms are alive
+Fish of type Bass named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Angelia Tollett, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Hassan Schlenker, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+The Bass named Micheal Mondor is getting older. They're now 2 turns old.
+The Bass named Micheal Mondor is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Clownfish named Micheal Mondor is getting older. They're now 2 turns old.
+The Clownfish named Drusilla Epps is getting older. They're now 2 turns old.
+The Grouper named Micheal Mondor is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Sole named Micheal Mondor is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Tuna named Angelia Tollett is getting older. They're now 2 turns old.
+The Tuna named Hassan Schlenker is getting older. They're now 2 turns old.
+At the end of turn 0. 13 fishes alive. 2 algae alive. Still alive:
+*** Turn 0 ***
+
+
+There are currently 30 fishes and 10 algae in the aquarium.:
+
+40 of these organisms are alive
+Fish of type Bass named Drusilla Epps, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Drusilla Epps, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Drusilla Epps is getting older. They're now 2 turns old.
+The Bass named Marie Lister is getting older. They're now 2 turns old.
+The Bass named Debbra Eis is getting older. They're now 2 turns old.
+The Bass named Drusilla Epps is getting older. They're now 2 turns old.
+The Bass named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Clownfish named Micheal Mondor is getting older. They're now 2 turns old.
+The Clownfish named Marie Lister is getting older. They're now 2 turns old.
+The Clownfish named Marie Lister is getting older. They're now 2 turns old.
+The Clownfish named Micheal Mondor is getting older. They're now 2 turns old.
+The Clownfish named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Marie Lister is getting older. They're now 2 turns old.
+The Grouper named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Micheal Mondor is getting older. They're now 2 turns old.
+The Sole named Marie Lister is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Sole named Marie Lister is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Sole named Marie Lister is getting older. They're now 2 turns old.
+The Tuna named Marie Lister is getting older. They're now 2 turns old.
+The Tuna named Marie Lister is getting older. They're now 2 turns old.
+The Tuna named Marie Lister is getting older. They're now 2 turns old.
+The Tuna named Marie Lister is getting older. They're now 2 turns old.
+The Tuna named Marie Lister is getting older. They're now 2 turns old.
+At the end of turn 0. 30 fishes alive. 20 algae alive. Still alive:
+*** Turn 0 ***
+
+
+There are currently 30 fishes and 10 algae in the aquarium.:
+
+40 of these organisms are alive
+Fish of type Bass named Miquel Mcmahan, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Criselda Mincey, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Diego Bangs, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Kacy Clopton, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Clemente Lombardo, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marketta Hecker, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Sherri Abner, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Maris Herdman, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Earnest Larkins, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Zaida Guzzi, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Lexie Robeson, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Madonna Sacco, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Micheal Mondor, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Lance Stetson, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Raeann Macias, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Elene Peacock, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Zaida Guzzi, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Tijuana Wulff, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Cleo Bucker, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Doloris Lattin, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Vasiliki Gabrielson, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Drusilla Epps, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Kimi Holm, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Towanda Muse, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Jule Perine, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Miquel Mcmahan is getting older. They're now 2 turns old.
+The Bass named Criselda Mincey is getting older. They're now 2 turns old.
+The Bass named Diego Bangs is getting older. They're now 2 turns old.
+The Bass named Kacy Clopton is getting older. They're now 2 turns old.
+The Bass named Clemente Lombardo is getting older. They're now 2 turns old.
+The Carp named Marketta Hecker is getting older. They're now 2 turns old.
+The Carp named Sherri Abner is getting older. They're now 2 turns old.
+The Carp named Maris Herdman is getting older. They're now 2 turns old.
+The Carp named Earnest Larkins is getting older. They're now 2 turns old.
+The Carp named Zaida Guzzi is getting older. They're now 2 turns old.
+The Clownfish named Lexie Robeson is getting older. They're now 2 turns old.
+The Clownfish named Madonna Sacco is getting older. They're now 2 turns old.
+The Clownfish named Debbra Eis is getting older. They're now 2 turns old.
+The Clownfish named Marie Lister is getting older. They're now 2 turns old.
+The Clownfish named Micheal Mondor is getting older. They're now 2 turns old.
+The Grouper named Lance Stetson is getting older. They're now 2 turns old.
+The Grouper named Raeann Macias is getting older. They're now 2 turns old.
+The Grouper named Debbra Eis is getting older. They're now 2 turns old.
+The Grouper named Elene Peacock is getting older. They're now 2 turns old.
+The Grouper named Zaida Guzzi is getting older. They're now 2 turns old.
+The Sole named Tijuana Wulff is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Sole named Cleo Bucker is getting older. They're now 2 turns old.
+The Sole named Doloris Lattin is getting older. They're now 2 turns old.
+The Sole named Debbra Eis is getting older. They're now 2 turns old.
+The Tuna named Vasiliki Gabrielson is getting older. They're now 2 turns old.
+The Tuna named Drusilla Epps is getting older. They're now 2 turns old.
+The Tuna named Kimi Holm is getting older. They're now 2 turns old.
+The Tuna named Towanda Muse is getting older. They're now 2 turns old.
+The Tuna named Jule Perine is getting older. They're now 2 turns old.
+*** Turn 0 ***
+
+
+There are currently 30 fishes and 10 algae in the aquarium.:
+
+40 of these organisms are alive
+Fish of type Bass named Caroll Grandstaff, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Ardella Pedraza, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Cindi Chmiel, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Rosaura Eliason, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Scarlett Heft, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Roderick Banegas, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Erlinda Silk, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Sunni Decicco, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Delbert Sledge, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Angle Honig, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Kimi Holm, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Neta Gandee, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Maris Herdman, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Anne Gigliotti, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Shaun Schrupp, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Karri Dimmick, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Devorah Levitsky, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Sheron Ruud, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Marquerite Bloomer, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Hassan Schlenker, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Quiana Dusenberry, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Krystyna Irvine, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Christine Bequette, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Kimi Holm, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Neta Gandee, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Rosalba Brenes, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Neta Gandee, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Shaun Schrupp, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Zaida Guzzi, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Caroll Grandstaff is getting older. They're now 2 turns old.
+The Bass named Ardella Pedraza is getting older. They're now 2 turns old.
+The Bass named Cindi Chmiel is getting older. They're now 2 turns old.
+The Bass named Rosaura Eliason is getting older. They're now 2 turns old.
+The Bass named Scarlett Heft is getting older. They're now 2 turns old.
+The Carp named Debbra Eis is getting older. They're now 2 turns old.
+The Carp named Roderick Banegas is getting older. They're now 2 turns old.
+The Carp named Erlinda Silk is getting older. They're now 2 turns old.
+The Carp named Sunni Decicco is getting older. They're now 2 turns old.
+The Carp named Delbert Sledge is getting older. They're now 2 turns old.
+The Clownfish named Angle Honig is getting older. They're now 2 turns old.
+The Clownfish named Kimi Holm is getting older. They're now 2 turns old.
+The Clownfish named Neta Gandee is getting older. They're now 2 turns old.
+The Clownfish named Maris Herdman is getting older. They're now 2 turns old.
+The Clownfish named Anne Gigliotti is getting older. They're now 2 turns old.
+The Grouper named Shaun Schrupp is getting older. They're now 2 turns old.
+The Grouper named Karri Dimmick is getting older. They're now 2 turns old.
+The Grouper named Devorah Levitsky is getting older. They're now 2 turns old.
+The Grouper named Sheron Ruud is getting older. They're now 2 turns old.
+The Grouper named Marquerite Bloomer is getting older. They're now 2 turns old.
+The Sole named Hassan Schlenker is getting older. They're now 2 turns old.
+The Sole named Quiana Dusenberry is getting older. They're now 2 turns old.
+The Sole named Krystyna Irvine is getting older. They're now 2 turns old.
+The Sole named Christine Bequette is getting older. They're now 2 turns old.
+The Sole named Kimi Holm is getting older. They're now 2 turns old.
+The Tuna named Neta Gandee is getting older. They're now 2 turns old.
+The Tuna named Rosalba Brenes is getting older. They're now 2 turns old.
+The Tuna named Neta Gandee is getting older. They're now 2 turns old.
+The Tuna named Shaun Schrupp is getting older. They're now 2 turns old.
+The Tuna named Zaida Guzzi is getting older. They're now 2 turns old.
+	The Clownfishs Kimi Holm and Maris Herdman had a child together!
+
+At the end of turn 0. 31 fishes alive. 20 algae alive. Still alive:
+*** Turn 0 ***
+
+
+There are currently 60 fishes and 10 algae in the aquarium.:
+
+70 of these organisms are alive
+Fish of type Bass named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Lacey Culberson, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Karri Dimmick, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Gerda Soukup, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Tillie Taormina, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Randa Zehner, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Cristobal Barnum, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Erlinda Silk, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Steve Dodgen, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Jule Perine, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Maryland Vandorn, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Elinor Cales, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Tijuana Wulff, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Melvina Kouba, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Morton Patti, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Hassan Schlenker, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Bee Steyer, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Cristobal Barnum, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Melania Klapper, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Christine Bequette, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Verdie Poe, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Tillie Taormina, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Ruthanne Humes, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Vella Goggin, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Doloris Lattin, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Sid Taliaferro, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Anne Gigliotti, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Tammie Mattice, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Jacinda Stell, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debroah Peck, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Lacey Culberson, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Carmine Bermea, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debroah Peck, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Erlinda Silk, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Birgit Silvestre, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Cleo Bucker, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Maryland Vandorn, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Bee Steyer, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Elinor Cales, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Erna Callihan, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Sherri Abner, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Cortez Perreira, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Madonna Sacco, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Tillie Taormina, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Livia Weingarten, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Pete Meloy, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Miles Alberty, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Debroah Peck, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Morton Patti, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Wei Mutch, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Miquel Mcmahan, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Avis Delaney, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Sheron Ruud, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Debbra Eis, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Debbra Eis is getting older. They're now 2 turns old.
+The Bass named Lacey Culberson is getting older. They're now 2 turns old.
+The Bass named Karri Dimmick is getting older. They're now 2 turns old.
+The Bass named Debbra Eis is getting older. They're now 2 turns old.
+The Bass named Gerda Soukup is getting older. They're now 2 turns old.
+The Bass named Tillie Taormina is getting older. They're now 2 turns old.
+The Bass named Randa Zehner is getting older. They're now 2 turns old.
+The Bass named Cristobal Barnum is getting older. They're now 2 turns old.
+The Bass named Erlinda Silk is getting older. They're now 2 turns old.
+The Bass named Steve Dodgen is getting older. They're now 2 turns old.
+The Carp named Jule Perine is getting older. They're now 2 turns old.
+The Carp named Maryland Vandorn is getting older. They're now 2 turns old.
+The Carp named Elinor Cales is getting older. They're now 2 turns old.
+The Carp named Tijuana Wulff is getting older. They're now 2 turns old.
+The Carp named Melvina Kouba is getting older. They're now 2 turns old.
+The Carp named Morton Patti is getting older. They're now 2 turns old.
+The Carp named Hassan Schlenker is getting older. They're now 2 turns old.
+The Carp named Debbra Eis is getting older. They're now 2 turns old.
+The Carp named Bee Steyer is getting older. They're now 2 turns old.
+The Carp named Cristobal Barnum is getting older. They're now 2 turns old.
+The Clownfish named Melania Klapper is getting older. They're now 2 turns old.
+The Clownfish named Christine Bequette is getting older. They're now 2 turns old.
+The Clownfish named Verdie Poe is getting older. They're now 2 turns old.
+The Clownfish named Tillie Taormina is getting older. They're now 2 turns old.
+The Clownfish named Ruthanne Humes is getting older. They're now 2 turns old.
+The Clownfish named Vella Goggin is getting older. They're now 2 turns old.
+The Clownfish named Doloris Lattin is getting older. They're now 2 turns old.
+The Clownfish named Sid Taliaferro is getting older. They're now 2 turns old.
+The Clownfish named Anne Gigliotti is getting older. They're now 2 turns old.
+The Clownfish named Debbra Eis is getting older. They're now 2 turns old.
+The Grouper named Tammie Mattice is getting older. They're now 2 turns old.
+The Grouper named Jacinda Stell is getting older. They're now 2 turns old.
+The Grouper named Debroah Peck is getting older. They're now 2 turns old.
+The Grouper named Lacey Culberson is getting older. They're now 2 turns old.
+The Grouper named Debbra Eis is getting older. They're now 2 turns old.
+The Grouper named Debbra Eis is getting older. They're now 2 turns old.
+The Grouper named Carmine Bermea is getting older. They're now 2 turns old.
+The Grouper named Debroah Peck is getting older. They're now 2 turns old.
+The Grouper named Erlinda Silk is getting older. They're now 2 turns old.
+The Grouper named Birgit Silvestre is getting older. They're now 2 turns old.
+The Sole named Cleo Bucker is getting older. They're now 2 turns old.
+The Sole named Maryland Vandorn is getting older. They're now 2 turns old.
+The Sole named Bee Steyer is getting older. They're now 2 turns old.
+The Sole named Elinor Cales is getting older. They're now 2 turns old.
+The Sole named Erna Callihan is getting older. They're now 2 turns old.
+The Sole named Sherri Abner is getting older. They're now 2 turns old.
+The Sole named Cortez Perreira is getting older. They're now 2 turns old.
+The Sole named Madonna Sacco is getting older. They're now 2 turns old.
+The Sole named Tillie Taormina is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Tuna named Livia Weingarten is getting older. They're now 2 turns old.
+The Tuna named Pete Meloy is getting older. They're now 2 turns old.
+The Tuna named Miles Alberty is getting older. They're now 2 turns old.
+The Tuna named Debroah Peck is getting older. They're now 2 turns old.
+The Tuna named Morton Patti is getting older. They're now 2 turns old.
+The Tuna named Wei Mutch is getting older. They're now 2 turns old.
+The Tuna named Miquel Mcmahan is getting older. They're now 2 turns old.
+The Tuna named Avis Delaney is getting older. They're now 2 turns old.
+The Tuna named Sheron Ruud is getting older. They're now 2 turns old.
+The Tuna named Debbra Eis is getting older. They're now 2 turns old.
+	The Basss Steve Dodgen and Lacey Culberson had a child together!
+
+	The Clownfishs Christine Bequette and Debbra Eis had a child together!
+
+	The Clownfishs Sid Taliaferro and Tillie Taormina had a child together!
+
+	The Clownfishs Anne Gigliotti and Verdie Poe had a child together!
+
+At the end of turn 0. 64 fishes alive. 20 algae alive. Still alive:
+*** Turn 0 ***
+
+
+There are currently 60 fishes and 10 algae in the aquarium.:
+
+70 of these organisms are alive
+Fish of type Bass named Anderson Gitlin, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Audrea Vanbuskirk, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Sheron Ruud, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Bee Steyer, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Wei Mutch, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Ardella Pedraza, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Wenona Jasmin, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Erlinda Silk, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Ardella Pedraza, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Rhoda Dodrill, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Drusilla Epps, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Lucio Hallowell, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Jacinta Guzik, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Sonia Leong, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marie Lister, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Lesia Yanni, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Doloris Lattin, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Erna Callihan, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Moon Harryman, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Zaida Guzzi, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Rashad Epting, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named America Crossman, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Kacy Clopton, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Mitsuko Burkhead, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Ruthanne Humes, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Erlinda Silk, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Anne Gigliotti, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Wei Mutch, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Bee Steyer, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Angle Honig, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Luvenia Keppel, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Brande Battista, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Marketta Hecker, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Shaun Schrupp, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Wei Mutch, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Maryland Vandorn, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Cristobal Barnum, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Ailene Delman, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Denae Dahms, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Brande Battista, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Joanne Vaughn, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Christine Bequette, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Jacinda Stell, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Towanda Muse, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Laurette Pogue, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Marie Lister, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Micheal Mondor, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Kristofer Sachs, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named America Crossman, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Pete Meloy, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Maryland Vandorn, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Anne Gigliotti, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Debroah Peck, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Morton Patti, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named America Crossman, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Kimi Holm, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Malcom Hulet, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Sheron Ruud, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Melvina Kouba, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Anderson Gitlin is getting older. They're now 2 turns old.
+The Bass named Audrea Vanbuskirk is getting older. They're now 2 turns old.
+The Bass named Sheron Ruud is getting older. They're now 2 turns old.
+The Bass named Bee Steyer is getting older. They're now 2 turns old.
+The Bass named Wei Mutch is getting older. They're now 2 turns old.
+The Bass named Ardella Pedraza is getting older. They're now 2 turns old.
+The Bass named Wenona Jasmin is getting older. They're now 2 turns old.
+The Bass named Erlinda Silk is getting older. They're now 2 turns old.
+The Bass named Ardella Pedraza is getting older. They're now 2 turns old.
+The Bass named Rhoda Dodrill is getting older. They're now 2 turns old.
+The Carp named Drusilla Epps is getting older. They're now 2 turns old.
+The Carp named Lucio Hallowell is getting older. They're now 2 turns old.
+The Carp named Jacinta Guzik is getting older. They're now 2 turns old.
+The Carp named Sonia Leong is getting older. They're now 2 turns old.
+The Carp named Marie Lister is getting older. They're now 2 turns old.
+The Carp named Lesia Yanni is getting older. They're now 2 turns old.
+The Carp named Doloris Lattin is getting older. They're now 2 turns old.
+The Carp named Erna Callihan is getting older. They're now 2 turns old.
+The Carp named Moon Harryman is getting older. They're now 2 turns old.
+The Carp named Zaida Guzzi is getting older. They're now 2 turns old.
+The Clownfish named Rashad Epting is getting older. They're now 2 turns old.
+The Clownfish named America Crossman is getting older. They're now 2 turns old.
+The Clownfish named Kacy Clopton is getting older. They're now 2 turns old.
+The Clownfish named Mitsuko Burkhead is getting older. They're now 2 turns old.
+The Clownfish named Ruthanne Humes is getting older. They're now 2 turns old.
+The Clownfish named Erlinda Silk is getting older. They're now 2 turns old.
+The Clownfish named Anne Gigliotti is getting older. They're now 2 turns old.
+The Clownfish named Wei Mutch is getting older. They're now 2 turns old.
+The Clownfish named Bee Steyer is getting older. They're now 2 turns old.
+The Clownfish named Angle Honig is getting older. They're now 2 turns old.
+The Grouper named Luvenia Keppel is getting older. They're now 2 turns old.
+The Grouper named Brande Battista is getting older. They're now 2 turns old.
+The Grouper named Marketta Hecker is getting older. They're now 2 turns old.
+The Grouper named Shaun Schrupp is getting older. They're now 2 turns old.
+The Grouper named Wei Mutch is getting older. They're now 2 turns old.
+The Grouper named Maryland Vandorn is getting older. They're now 2 turns old.
+The Grouper named Cristobal Barnum is getting older. They're now 2 turns old.
+The Grouper named Ailene Delman is getting older. They're now 2 turns old.
+The Grouper named Denae Dahms is getting older. They're now 2 turns old.
+The Grouper named Brande Battista is getting older. They're now 2 turns old.
+The Sole named Joanne Vaughn is getting older. They're now 2 turns old.
+The Sole named Christine Bequette is getting older. They're now 2 turns old.
+The Sole named Jacinda Stell is getting older. They're now 2 turns old.
+The Sole named Drusilla Epps is getting older. They're now 2 turns old.
+The Sole named Towanda Muse is getting older. They're now 2 turns old.
+The Sole named Laurette Pogue is getting older. They're now 2 turns old.
+The Sole named Marie Lister is getting older. They're now 2 turns old.
+The Sole named Micheal Mondor is getting older. They're now 2 turns old.
+The Sole named Kristofer Sachs is getting older. They're now 2 turns old.
+The Sole named America Crossman is getting older. They're now 2 turns old.
+The Tuna named Pete Meloy is getting older. They're now 2 turns old.
+The Tuna named Maryland Vandorn is getting older. They're now 2 turns old.
+The Tuna named Anne Gigliotti is getting older. They're now 2 turns old.
+The Tuna named Debroah Peck is getting older. They're now 2 turns old.
+The Tuna named Morton Patti is getting older. They're now 2 turns old.
+The Tuna named America Crossman is getting older. They're now 2 turns old.
+The Tuna named Kimi Holm is getting older. They're now 2 turns old.
+The Tuna named Malcom Hulet is getting older. They're now 2 turns old.
+The Tuna named Sheron Ruud is getting older. They're now 2 turns old.
+The Tuna named Melvina Kouba is getting older. They're now 2 turns old.
+	The Clownfishs Erlinda Silk and Mitsuko Burkhead had a child together!
+
+At the end of turn 0. 61 fishes alive. 20 algae alive. Still alive:
