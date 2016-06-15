@@ -840,3 +840,67 @@ The Tuna named Melvina Kouba is getting older. They're now 2 turns old.
 	The Clownfishs Erlinda Silk and Mitsuko Burkhead had a child together!
 
 At the end of turn 0. 61 fishes alive. 20 algae alive. Still alive:
+*** Turn 0 ***
+
+
+There are currently 14 fishes and 4 algae in the aquarium.:
+
+18 of these organisms are alive
+Fish of type Bass named Lexie Robeson, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Bass named Audrea Vanbuskirk, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Marquerite Bloomer, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Karmen Barrows, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Sonya Shuster, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Drusilla Epps, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Angelia Tollett, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Drusilla Epps, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Sherri Abner, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Sheron Ruud, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Debbra Eis, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Marketta Hecker, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Marketta Hecker, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Lacey Culberson, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+An alga just grew older. They're now 2 turns old.
+The Bass named Lexie Robeson is getting older. They're now 2 turns old.
+The Bass named Audrea Vanbuskirk is getting older. They're now 2 turns old.
+The Carp named Marquerite Bloomer is getting older. They're now 2 turns old.
+The Carp named Karmen Barrows is getting older. They're now 2 turns old.
+The Clownfish named Sonya Shuster is getting older. They're now 2 turns old.
+The Clownfish named Drusilla Epps is getting older. They're now 2 turns old.
+The Clownfish named Angelia Tollett is getting older. They're now 2 turns old.
+The Grouper named Drusilla Epps is getting older. They're now 2 turns old.
+The Grouper named Sherri Abner is getting older. They're now 2 turns old.
+The Grouper named Sheron Ruud is getting older. They're now 2 turns old.
+The Grouper named Debbra Eis is getting older. They're now 2 turns old.
+The Sole named Marketta Hecker is getting older. They're now 2 turns old.
+The Tuna named Marketta Hecker is getting older. They're now 2 turns old.
+The Tuna named Lacey Culberson is getting older. They're now 2 turns old.
+At the end of turn 0. 14 fishes alive. 8 algae alive. Still alive:
+*** Turn 0 ***
+
+
+There are currently 6 fishes and 1 algae in the aquarium.:
+
+7 of these organisms are alive
+Fish of type Bass named Randa Zehner, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Carp named Audrea Vanbuskirk, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Clownfish named Marketta Hecker, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Grouper named Lynda Parshall, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Sole named Wei Mutch, Male, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+Fish of type Tuna named Denny Jehle, Female, 1 turns old is getting hungrier and loses 1 HP. They now have 9 HP.
+An alga just gained 1 HP and is now at 11 HP.
+An alga just grew older. They're now 2 turns old.
+The Bass named Randa Zehner is getting older. They're now 2 turns old.
+The Carp named Audrea Vanbuskirk is getting older. They're now 2 turns old.
+The Clownfish named Marketta Hecker is getting older. They're now 2 turns old.
+The Grouper named Lynda Parshall is getting older. They're now 2 turns old.
+The Sole named Wei Mutch is getting older. They're now 2 turns old.
+The Tuna named Denny Jehle is getting older. They're now 2 turns old.
+At the end of turn 0. 6 fishes alive. 2 algae alive. Still alive:
